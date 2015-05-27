@@ -2,7 +2,9 @@
 Easily custom alertView.<br>
 Using completion block and singleton.<br><br>
 
-Reference example project and easily use it!.<br><br><br><br>
+Reference example project and easily use it!.<br><br>
+
+Next commit is auto dismiss alert.<br><br>
 
 #License
 The MIT License (MIT)
