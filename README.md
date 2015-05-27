@@ -1,10 +1,59 @@
 # TezAlertView
 Easily custom alertView.<br>
-Using completion block and singleton.
+* Using completion block and singleton.
 
-* Reference example project and easily use it!.
+* Next commit is auto dismiss alert.
 
-* Next commit is auto dismiss alert.<br><br>
+#Usage
+```objective-c
+[[TezAlertView sharedInstance] showAlertViewWithTitle:@"This is Title!"
+                                   dismissButtonTitle:@"Ok"
+                                         dismissBlock:^{
+                                             NSLog(@"Dismiss Block!");
+                                         }];
+                                         
+[[TezAlertView sharedInstance] showAlertViewWithMessage:@"I am a message"
+                                     dismissButtonTitle:@"Ok"
+                                           dismissBlock:^{
+                                             NSLog(@"Dismiss Block!");
+                                         }];
+
+[[TezAlertView sharedInstance] showAlertViewWithTitle:nil
+                                              message:@"I am a message"
+                                   dismissButtonTitle:@"Ok"
+                                         dismissBlock:^{
+                                             NSLog(@"Dismiss Block!");
+                                         }];
+
+[[TezAlertView sharedInstance] showAlertViewWithTitle:@"This is Title!"
+                                              message:@"I am a message"
+                                   dismissButtonTitle:@"Ok"
+                                    cancelButtonTitle:@"Close"
+                                         dismissBlock:^{
+                                             NSLog(@"Dismiss Block!");
+                                         } cancelBlock:^{
+                                             NSLog(@"Cancel Block!");
+                                         }];
+
+[[TezAlertView sharedInstance] showAlertViewWithTitle:@"This is Title!"
+                                   dismissButtonTitle:@"Ok"
+                                    cancelButtonTitle:@"Close"
+                                         dismissBlock:^{
+                                             NSLog(@"Dismiss Block!");
+                                         } cancelBlock:^{
+                                             NSLog(@"Cancel Block!");
+                                         }];
+
+[[TezAlertView sharedInstance] showAlertViewWithMessage:@"I am a message"
+                                   dismissButtonTitle:@"Ok"
+                                    cancelButtonTitle:@"Close"
+                                         dismissBlock:^{
+                                             NSLog(@"Dismiss Block!");
+                                         } cancelBlock:^{
+                                             NSLog(@"Cancel Block!");
+                                         }];
+```
+
 
 #License
 The MIT License (MIT)
