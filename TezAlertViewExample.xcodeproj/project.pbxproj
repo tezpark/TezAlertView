@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE50DCD1B158D6F00F1E0ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DCC1B158D6F00F1E0ED /* main.m */; };
+		FAE50DD01B158D6F00F1E0ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DCF1B158D6F00F1E0ED /* AppDelegate.m */; };
+		FAE50DD31B158D6F00F1E0ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DD21B158D6F00F1E0ED /* ViewController.m */; };
+		FAE50DD61B158D6F00F1E0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE50DD41B158D6F00F1E0ED /* Main.storyboard */; };
+		FAE50DD81B158D6F00F1E0ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE50DD71B158D6F00F1E0ED /* Images.xcassets */; };
+		FAE50DDB1B158D6F00F1E0ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE50DD91B158D6F00F1E0ED /* LaunchScreen.xib */; };
+		FAE50DE71B158D6F00F1E0ED /* TezAlertViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DE61B158D6F00F1E0ED /* TezAlertViewExampleTests.m */; };
+		FAE50DF31B158DAA00F1E0ED /* TezAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DF21B158DAA00F1E0ED /* TezAlertView.m */; };
+		FAE50DF81B158EB500F1E0ED /* NSString+TezSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DF71B158EB500F1E0ED /* NSString+TezSize.m */; };
+		FAE50DFB1B15907D00F1E0ED /* UIImage+TezStetch.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DFA1B15907D00F1E0ED /* UIImage+TezStetch.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE50DE11B158D6F00F1E0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE50DBF1B158D6F00F1E0ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE50DC61B158D6F00F1E0ED;
+			remoteInfo = TezAlertViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE50DC71B158D6F00F1E0ED /* TezAlertViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TezAlertViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE50DCB1B158D6F00F1E0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE50DCC1B158D6F00F1E0ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE50DCE1B158D6F00F1E0ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE50DCF1B158D6F00F1E0ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE50DD11B158D6F00F1E0ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAE50DD21B158D6F00F1E0ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAE50DD51B158D6F00F1E0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE50DD71B158D6F00F1E0ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAE50DDA1B158D6F00F1E0ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAE50DE01B158D6F00F1E0ED /* TezAlertViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TezAlertViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE50DE51B158D6F00F1E0ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE50DE61B158D6F00F1E0ED /* TezAlertViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TezAlertViewExampleTests.m; sourceTree = "<group>"; };
+		FAE50DF11B158DAA00F1E0ED /* TezAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TezAlertView.h; sourceTree = "<group>"; };
+		FAE50DF21B158DAA00F1E0ED /* TezAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TezAlertView.m; sourceTree = "<group>"; };
+		FAE50DF61B158EB500F1E0ED /* NSString+TezSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TezSize.h"; sourceTree = "<group>"; };
+		FAE50DF71B158EB500F1E0ED /* NSString+TezSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TezSize.m"; sourceTree = "<group>"; };
+		FAE50DF91B15907D00F1E0ED /* UIImage+TezStetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TezStetch.h"; sourceTree = "<group>"; };
+		FAE50DFA1B15907D00F1E0ED /* UIImage+TezStetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TezStetch.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE50DC41B158D6F00F1E0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE50DDD1B158D6F00F1E0ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE50DBE1B158D6F00F1E0ED = {
+			isa = PBXGroup;
+			children = (
+				FAE50DF01B158D9400F1E0ED /* TezAlertView */,
+				FAE50DC91B158D6F00F1E0ED /* TezAlertViewExample */,
+				FAE50DE31B158D6F00F1E0ED /* TezAlertViewExampleTests */,
+				FAE50DC81B158D6F00F1E0ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE50DC81B158D6F00F1E0ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE50DC71B158D6F00F1E0ED /* TezAlertViewExample.app */,
+				FAE50DE01B158D6F00F1E0ED /* TezAlertViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE50DC91B158D6F00F1E0ED /* TezAlertViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				FAE50DCE1B158D6F00F1E0ED /* AppDelegate.h */,
+				FAE50DCF1B158D6F00F1E0ED /* AppDelegate.m */,
+				FAE50DD11B158D6F00F1E0ED /* ViewController.h */,
+				FAE50DD21B158D6F00F1E0ED /* ViewController.m */,
+				FAE50DD41B158D6F00F1E0ED /* Main.storyboard */,
+				FAE50DD71B158D6F00F1E0ED /* Images.xcassets */,
+				FAE50DD91B158D6F00F1E0ED /* LaunchScreen.xib */,
+				FAE50DCA1B158D6F00F1E0ED /* Supporting Files */,
+			);
+			path = TezAlertViewExample;
+			sourceTree = "<group>";
+		};
+		FAE50DCA1B158D6F00F1E0ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE50DCB1B158D6F00F1E0ED /* Info.plist */,
+				FAE50DCC1B158D6F00F1E0ED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE50DE31B158D6F00F1E0ED /* TezAlertViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE50DE61B158D6F00F1E0ED /* TezAlertViewExampleTests.m */,
+				FAE50DE41B158D6F00F1E0ED /* Supporting Files */,
+			);
+			path = TezAlertViewExampleTests;
+			sourceTree = "<group>";
+		};
+		FAE50DE41B158D6F00F1E0ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE50DE51B158D6F00F1E0ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE50DF01B158D9400F1E0ED /* TezAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				FAE50DF41B158E1500F1E0ED /* Util */,
+				FAE50DF11B158DAA00F1E0ED /* TezAlertView.h */,
+				FAE50DF21B158DAA00F1E0ED /* TezAlertView.m */,
+			);
+			path = TezAlertView;
+			sourceTree = "<group>";
+		};
+		FAE50DF41B158E1500F1E0ED /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FAE50DF61B158EB500F1E0ED /* NSString+TezSize.h */,
+				FAE50DF71B158EB500F1E0ED /* NSString+TezSize.m */,
+				FAE50DF91B15907D00F1E0ED /* UIImage+TezStetch.h */,
+				FAE50DFA1B15907D00F1E0ED /* UIImage+TezStetch.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE50DC61B158D6F00F1E0ED /* TezAlertViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE50DEA1B158D6F00F1E0ED /* Build configuration list for PBXNativeTarget "TezAlertViewExample" */;
+			buildPhases = (
+				FAE50DC31B158D6F00F1E0ED /* Sources */,
+				FAE50DC41B158D6F00F1E0ED /* Frameworks */,
+				FAE50DC51B158D6F00F1E0ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TezAlertViewExample;
+			productName = TezAlertViewExample;
+			productReference = FAE50DC71B158D6F00F1E0ED /* TezAlertViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE50DDF1B158D6F00F1E0ED /* TezAlertViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE50DED1B158D6F00F1E0ED /* Build configuration list for PBXNativeTarget "TezAlertViewExampleTests" */;
+			buildPhases = (
+				FAE50DDC1B158D6F00F1E0ED /* Sources */,
+				FAE50DDD1B158D6F00F1E0ED /* Frameworks */,
+				FAE50DDE1B158D6F00F1E0ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE50DE21B158D6F00F1E0ED /* PBXTargetDependency */,
+			);
+			name = TezAlertViewExampleTests;
+			productName = TezAlertViewExampleTests;
+			productReference = FAE50DE01B158D6F00F1E0ED /* TezAlertViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE50DBF1B158D6F00F1E0ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = TezLab;
+				TargetAttributes = {
+					FAE50DC61B158D6F00F1E0ED = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					FAE50DDF1B158D6F00F1E0ED = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = FAE50DC61B158D6F00F1E0ED;
+					};
+				};
+			};
+			buildConfigurationList = FAE50DC21B158D6F00F1E0ED /* Build configuration list for PBXProject "TezAlertViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE50DBE1B158D6F00F1E0ED;
+			productRefGroup = FAE50DC81B158D6F00F1E0ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE50DC61B158D6F00F1E0ED /* TezAlertViewExample */,
+				FAE50DDF1B158D6F00F1E0ED /* TezAlertViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE50DC51B158D6F00F1E0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE50DD61B158D6F00F1E0ED /* Main.storyboard in Resources */,
+				FAE50DDB1B158D6F00F1E0ED /* LaunchScreen.xib in Resources */,
+				FAE50DD81B158D6F00F1E0ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE50DDE1B158D6F00F1E0ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE50DC31B158D6F00F1E0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE50DD31B158D6F00F1E0ED /* ViewController.m in Sources */,
+				FAE50DF81B158EB500F1E0ED /* NSString+TezSize.m in Sources */,
+				FAE50DFB1B15907D00F1E0ED /* UIImage+TezStetch.m in Sources */,
+				FAE50DD01B158D6F00F1E0ED /* AppDelegate.m in Sources */,
+				FAE50DCD1B158D6F00F1E0ED /* main.m in Sources */,
+				FAE50DF31B158DAA00F1E0ED /* TezAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE50DDC1B158D6F00F1E0ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE50DE71B158D6F00F1E0ED /* TezAlertViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE50DE21B158D6F00F1E0ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE50DC61B158D6F00F1E0ED /* TezAlertViewExample */;
+			targetProxy = FAE50DE11B158D6F00F1E0ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE50DD41B158D6F00F1E0ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE50DD51B158D6F00F1E0ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE50DD91B158D6F00F1E0ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE50DDA1B158D6F00F1E0ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE50DE81B158D6F00F1E0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE50DE91B158D6F00F1E0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE50DEB1B158D6F00F1E0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TezAlertViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAE50DEC1B158D6F00F1E0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TezAlertViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAE50DEE1B158D6F00F1E0ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TezAlertViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TezAlertViewExample.app/TezAlertViewExample";
+			};
+			name = Debug;
+		};
+		FAE50DEF1B158D6F00F1E0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TezAlertViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TezAlertViewExample.app/TezAlertViewExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE50DC21B158D6F00F1E0ED /* Build configuration list for PBXProject "TezAlertViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE50DE81B158D6F00F1E0ED /* Debug */,
+				FAE50DE91B158D6F00F1E0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE50DEA1B158D6F00F1E0ED /* Build configuration list for PBXNativeTarget "TezAlertViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE50DEB1B158D6F00F1E0ED /* Debug */,
+				FAE50DEC1B158D6F00F1E0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAE50DED1B158D6F00F1E0ED /* Build configuration list for PBXNativeTarget "TezAlertViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE50DEE1B158D6F00F1E0ED /* Debug */,
+				FAE50DEF1B158D6F00F1E0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE50DBF1B158D6F00F1E0ED /* Project object */;
+}
