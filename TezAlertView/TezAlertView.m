@@ -100,7 +100,7 @@ static const CGFloat buttonHeight = 32;
     CGSize messageSize = [message getSizeWithFont:font(14) maxSize:CGSizeMake(alertViewWidth - kMargin(20)*2, [[UIScreen mainScreen] bounds].size.height/2)];
     
     // Create alert background view.
-    CGFloat alertBgViewHeight = kMargin(38) + titleSize.height + kMargin(10) + messageSize.height + kMargin(32) + buttonHeight + kMargin(12);
+    CGFloat alertBgViewHeight = kMargin(38) + titleSize.height + (title?kMargin(10):0) + messageSize.height + kMargin(32) + buttonHeight + kMargin(12);
     
     UIView* alertBgView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, alertViewWidth, alertBgViewHeight)];
     [alertBgView setBackgroundColor:[UIColor whiteColor]];
