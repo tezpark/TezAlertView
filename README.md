@@ -5,6 +5,9 @@ Custom singleton alertView with block completion.
 * Using completion block and singleton.
 * Next commit is auto dismiss alert.
 
+![ios simulator screen shot 2015 5 31 9 27 40](https://cloud.githubusercontent.com/assets/389004/7901926/2855f8be-07dc-11e5-9123-20f1d1034987.png)
+![ios simulator screen shot 2015 5 31 9 28 16](https://cloud.githubusercontent.com/assets/389004/7901927/2856dd60-07dc-11e5-944a-a39ee470715d.png)
+
 #Usage
 ```objective-c
 [[TezAlertView sharedInstance] showAlertViewWithTitle:@"This is Title!"
