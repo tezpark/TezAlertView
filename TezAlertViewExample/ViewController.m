@@ -64,6 +64,7 @@
 #pragma mark - OnClick actions
 - (void)onClickTitleMessageOneButton {
     [[TezAlertView sharedInstance] showAlertViewWithTitle:@"This is Title!"
+                                                  message:@"I am a message"
                                        dismissButtonTitle:@"Ok"
                                              dismissBlock:^{
                                                  NSLog(@"Dismiss Block!");
