@@ -1,7 +1,7 @@
 # TezAlertView
 Custom singleton alertView with block completion.
 
-* Easy custom alertView.
+* Simple custom alertView.
 * Using completion block and singleton.
 * Next commit is auto dismiss alert.
 
