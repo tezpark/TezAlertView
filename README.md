@@ -1,3 +1,7 @@
+[![GitHub platform](https://img.shields.io/badge/platform-ios-lightgrey.svg)]() 
+[![GitHub language](https://img.shields.io/badge/language-objective--c-6BAEE4.svg)]()
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/tezpark/AlternateIconName-objC/master/LICENSE)
+
 # TezAlertView
 Custom singleton alertView with block completion.
 
@@ -8,7 +12,7 @@ Custom singleton alertView with block completion.
 ![ios simulator screen shot 2015 5 31 9 27 40](https://cloud.githubusercontent.com/assets/389004/7901926/2855f8be-07dc-11e5-9123-20f1d1034987.png)
 ![ios simulator screen shot 2015 5 31 9 28 16](https://cloud.githubusercontent.com/assets/389004/7901927/2856dd60-07dc-11e5-944a-a39ee470715d.png)
 
-#Usage
+# Usage
 ```objective-c
 [[TezAlertView sharedInstance] showAlertViewWithTitle:@"This is Title!"
                                    dismissButtonTitle:@"Ok"
@@ -59,7 +63,7 @@ Custom singleton alertView with block completion.
 ```
 
 
-#License
+# License
 The MIT License (MIT)
 
 Copyright (c) 2015 Taesun Park
