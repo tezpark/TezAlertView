@@ -15,8 +15,6 @@
 		FAE50DDB1B158D6F00F1E0ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE50DD91B158D6F00F1E0ED /* LaunchScreen.xib */; };
 		FAE50DE71B158D6F00F1E0ED /* TezAlertViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DE61B158D6F00F1E0ED /* TezAlertViewExampleTests.m */; };
 		FAE50DF31B158DAA00F1E0ED /* TezAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DF21B158DAA00F1E0ED /* TezAlertView.m */; };
-		FAE50DF81B158EB500F1E0ED /* NSString+TezSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DF71B158EB500F1E0ED /* NSString+TezSize.m */; };
-		FAE50DFB1B15907D00F1E0ED /* UIImage+TezStetch.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE50DFA1B15907D00F1E0ED /* UIImage+TezStetch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +43,6 @@
 		FAE50DE61B158D6F00F1E0ED /* TezAlertViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TezAlertViewExampleTests.m; sourceTree = "<group>"; };
 		FAE50DF11B158DAA00F1E0ED /* TezAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TezAlertView.h; sourceTree = "<group>"; };
 		FAE50DF21B158DAA00F1E0ED /* TezAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TezAlertView.m; sourceTree = "<group>"; };
-		FAE50DF61B158EB500F1E0ED /* NSString+TezSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TezSize.h"; sourceTree = "<group>"; };
-		FAE50DF71B158EB500F1E0ED /* NSString+TezSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TezSize.m"; sourceTree = "<group>"; };
-		FAE50DF91B15907D00F1E0ED /* UIImage+TezStetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TezStetch.h"; sourceTree = "<group>"; };
-		FAE50DFA1B15907D00F1E0ED /* UIImage+TezStetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TezStetch.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,22 +126,10 @@
 		FAE50DF01B158D9400F1E0ED /* TezAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				FAE50DF41B158E1500F1E0ED /* Util */,
 				FAE50DF11B158DAA00F1E0ED /* TezAlertView.h */,
 				FAE50DF21B158DAA00F1E0ED /* TezAlertView.m */,
 			);
 			path = TezAlertView;
-			sourceTree = "<group>";
-		};
-		FAE50DF41B158E1500F1E0ED /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				FAE50DF61B158EB500F1E0ED /* NSString+TezSize.h */,
-				FAE50DF71B158EB500F1E0ED /* NSString+TezSize.m */,
-				FAE50DF91B15907D00F1E0ED /* UIImage+TezStetch.h */,
-				FAE50DFA1B15907D00F1E0ED /* UIImage+TezStetch.m */,
-			);
-			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE50DD31B158D6F00F1E0ED /* ViewController.m in Sources */,
-				FAE50DF81B158EB500F1E0ED /* NSString+TezSize.m in Sources */,
-				FAE50DFB1B15907D00F1E0ED /* UIImage+TezStetch.m in Sources */,
 				FAE50DD01B158D6F00F1E0ED /* AppDelegate.m in Sources */,
 				FAE50DCD1B158D6F00F1E0ED /* main.m in Sources */,
 				FAE50DF31B158DAA00F1E0ED /* TezAlertView.m in Sources */,
@@ -450,6 +430,7 @@
 				FAE50DEC1B158D6F00F1E0ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE50DED1B158D6F00F1E0ED /* Build configuration list for PBXNativeTarget "TezAlertViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +439,7 @@
 				FAE50DEF1B158D6F00F1E0ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

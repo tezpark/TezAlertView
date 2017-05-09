@@ -14,15 +14,15 @@ typedef void (^AlertCancelBlock) (void);
 
 @interface TezAlertView : UIView
 
-@property (nonatomic, copy) AlertDismissBlock dismissBlock;
-@property (nonatomic, copy) AlertCancelBlock cancelBlock;
+@property(nonatomic, copy) AlertDismissBlock dismissBlock;
+@property(nonatomic, copy) AlertCancelBlock cancelBlock;
 
 /**
  *  TezAlertView singleton
  *
  *  @return Singleton object
  */
-+(TezAlertView *)sharedInstance;
++ (TezAlertView *)sharedInstance;
 
 /**
  *  Title only & one button
@@ -84,10 +84,10 @@ typedef void (^AlertCancelBlock) (void);
  *  @param cancelBlock        Cancel block
  */
 - (void)showAlertViewWithMessage:(NSString *)message
-            dismissButtonTitle:(NSString *)dismissButtonTitle
-             cancelButtonTitle:(NSString *)cancelButtonTitle
-                  dismissBlock:(AlertDismissBlock)dismissBlock
-                   cancelBlock:(AlertCancelBlock)cancelBlock;
+              dismissButtonTitle:(NSString *)dismissButtonTitle
+               cancelButtonTitle:(NSString *)cancelButtonTitle
+                    dismissBlock:(AlertDismissBlock)dismissBlock
+                     cancelBlock:(AlertCancelBlock)cancelBlock;
 
 /**
  *  Title, message and two button
