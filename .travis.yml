@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode8
+xcode_workspace: TezAlertViewExample.xcodeproj
+xcode_scheme: TezAlertViewExample
+xcode_sdk: iphonesimulator10.0
+
+script:
+          - xcodebuild build test -project TezAlertViewExample.xcodeproj -scheme TezAlertViewExample | xcpretty
