@@ -15,6 +15,17 @@ Custom singleton alertView with block completion.
 
 # Usage
 ```objective-c
+TezAlertView *alertView = [[TezAlertView alloc] init];
+[alertView showAlertViewWithTitle:@"This is Title!"
+                          message:@"I am a message"
+               dismissButtonTitle:@"Ok"
+                     dismissBlock:^{
+                         NSLog(@"Dismiss Block!");
+                     }];
+            
+/************            
+  Singleton
+************/
 [[TezAlertView sharedInstance] showAlertViewWithTitle:@"This is Title!"
                                    dismissButtonTitle:@"Ok"
                                          dismissBlock:^{
