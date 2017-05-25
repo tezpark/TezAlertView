@@ -13,6 +13,16 @@ Custom singleton alertView with block completion.
 ![ios simulator screen shot 2015 5 31 9 27 40](https://cloud.githubusercontent.com/assets/389004/7901926/2855f8be-07dc-11e5-9123-20f1d1034987.png)
 ![ios simulator screen shot 2015 5 31 9 28 16](https://cloud.githubusercontent.com/assets/389004/7901927/2856dd60-07dc-11e5-944a-a39ee470715d.png)
 
+
+## Installation
+#### CocoaPods
+TezAlertView is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "TezAlertView"
+```
+
 # Usage
 ```objective-c
 TezAlertView *alertView = [[TezAlertView alloc] init];
